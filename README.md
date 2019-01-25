@@ -7,7 +7,7 @@ This repository will be used for my webapps class and give information to my col
 ##Recommended Tools
 - [HTML](https://www.learn-html.org/"HTML"): Hypertext Markup Language used for developing web pages
 - [CSS](https://www.codecademy.com/learn/learn-css"CSS"): Cascading Style Sheets used for designing the webpage
-JS: Java Script-Client Side programming language
+- [JS](https://www.learn-js.org/"JS"): Java Script-Client Side programming language
 ## Resources
 aergty
 efrdgfhg
