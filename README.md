@@ -10,7 +10,7 @@ This repository will be used for my webapps class and give information to my col
 - [JS](https://www.learn-js.org/"JS"): Java Script-Client Side programming language
 ## Resources
 - [Git](https://git-scm.com/"Git")
-- [Code_Academy](https://www.codecademy.com/"Code_Academy"):
+- [Code_Academy](https://www.codecademy.com/"Code_Academy")
 - [Mozilla](https://developer.mozilla.org/en-US/docs/Learn"Moziila")
 ## Contributors
 I am Vamshi Krishna Yellamanchili, a computer science graduate and pursuing my masters in Applied Computing Science.
