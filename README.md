@@ -13,5 +13,6 @@ aergty
 efrdgfhg
 sfdgf
 ## Contributors
-I am Vamshi Krishna Yellamanchili, a computer science graduate and pursuing my masters in Applied COmputin Science.
+I am Vamshi Krishna Yellamanchili, a computer science graduate and pursuing my masters in Applied Computing Science.
+Cristiano Ronaldo dos Santos Aveiro is the greatest footballer of all time. 
 ![Source](https://github.com/yellamanchili/aboutme/blob/master/ronaldo.jpg)
