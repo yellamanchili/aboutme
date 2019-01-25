@@ -1,1 +1,16 @@
 # aboutme
+## Repository Links
+https://github.com/yellamanchili/aboutme/edit/master/README.md
+https://github.com/yellamanchili/aboutme/edit/master/README.md
+## About
+This repository will be used for my webapps class and give information to my colleagues and future employers.
+##Recommended Tools
+HTML: Hypertext Markup Language used for developing web pages
+CSS: Cascading Style Sheets used for designing the webpage
+JS: Java Script-Client Side programming language
+## Resources
+aergty
+efrdgfhg
+sfdgf
+## Contributors
+I am Vamshi Krishna Yellamanchili, a computer science graduate and pursuing my masters in Applied COmputin Science.
