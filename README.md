@@ -9,7 +9,8 @@ This repository will be used for my webapps class and give information to my col
 - [CSS](https://www.codecademy.com/learn/learn-css"CSS"): Cascading Style Sheets used for designing the webpage
 - [JS](https://www.learn-js.org/"JS"): Java Script-Client Side programming language
 ## Resources
-aergty
+- [Git](https://git-scm.com/"Git")
+- [CodeAcademy](https://www.codecademy.com/"Code Academy")
 efrdgfhg
 sfdgf
 ## Contributors
