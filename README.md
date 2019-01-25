@@ -12,9 +12,8 @@ This repository will be used for my webapps class and give information to my col
 - [Git](https://git-scm.com/"Git")
 - [Code_Academy](https://www.codecademy.com/"Code_Academy"):
 - [Mozilla](https://developer.mozilla.org/en-US/docs/Learn"Moziila")
-efrdgfhg
-sfdgf
 ## Contributors
 I am Vamshi Krishna Yellamanchili, a computer science graduate and pursuing my masters in Applied Computing Science.
+
 Cristiano Ronaldo dos Santos Aveiro is the greatest footballer of all time. 
 ![Source](https://github.com/yellamanchili/aboutme/blob/master/ronaldo.jpg)
