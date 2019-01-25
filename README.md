@@ -1,7 +1,7 @@
 # aboutme
 ## Repository Links
-https://github.com/yellamanchili/aboutme/edit/master/README.md
-https://github.com/yellamanchili/aboutme/edit/master/README.md
+[Webpage] (https://github.com/yellamanchili/aboutme/edit/master/README.md)
+[Source] (https://github.com/yellamanchili/aboutme)
 ## About
 This repository will be used for my webapps class and give information to my colleagues and future employers.
 ##Recommended Tools
