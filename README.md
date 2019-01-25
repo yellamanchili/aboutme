@@ -14,4 +14,4 @@ efrdgfhg
 sfdgf
 ## Contributors
 I am Vamshi Krishna Yellamanchili, a computer science graduate and pursuing my masters in Applied COmputin Science.
-![Source](aboutme/ronaldo.jpg)
+![Source](https://github.com/yellamanchili/aboutme/blob/master/ronaldo.jpg)
