@@ -15,5 +15,5 @@ This repository will be used for my webapps class and give information to my col
 ## Contributors
 I am Vamshi Krishna Yellamanchili, a computer science graduate and pursuing my masters in Applied Computing Science.
 
-Cristiano Ronaldo dos Santos Aveiro is the greatest footballer of all time. 
-![Source](https://github.com/yellamanchili/aboutme/blob/master/ronaldo.jpg)
+Cristiano Ronaldo dos Santos Aveiro is the second greatest footballer of all time. 
+![Source](https://cdn.vox-cdn.com/thumbor/EcwMlBXhi9qht3EdNqPFKQA_m5s=/0x0:3714x2600/920x613/filters:focal(1278x150:1872x744):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/60080547/975523678.jpg.0.jpg)
