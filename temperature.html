@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Temperature Conversion</title>
+  
+  <link rel="stylesheet" href="yellamanchili.css">
+  <meta charset="UTF-8">
+  <meta name="Author" content="Vamshi Krishna Yellamanchili">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+        <nav>
+                <div class="topnav">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="temperature.html">Temperature converter</a>
+            
+                  </div>
+                </nav>
+  <main class="container-fluid">
+
+    <h1>Temperature conversion from Faranheit to Celcius</h1>
+
+    <p>Kindly, enter the temperature in Faranheit
+      <input id="tf" type="number" value="90">
+    </p>
+
+
+    
+
+    <button id="clicker" class="btn btn-primary">Get temperature</button>
+    
+    <p id="result"></p>
+    <p id="joke"></p>
+    
+  </main>
+
+  <script>
+    
+    function temperature(x) {
+      return (x-32)*5/9;
+    }
+    console.log('Defined temperature=' + temperature)
+    console.log('Declare event listeners .......................')
+    document.getElementById('clicker').addEventListener('click', function () {
+      const s = document.getElementById('tf').value
+      const i = parseInt(document.getElementById('tf').value)
+      console.log('i=' + i)
+     
+      
+      const ans = 'The temperature is  ' + temperature(i) + ' Degree Celcius.'
+      document.getElementById('result').innerHTML = ans
+      $.ajax({
+        url: "http://api.icndb.com/jokes/random?limitTo=[nerdy]",
+        cache: false,
+        dataType: "json",
+        type: "GET",
+        success: function (result, success) {
+          document.getElementById('joke').innerHTML = 'Its a joke, They are taking it way too seriously: '
+          + result.value.joke;
+        },
+        error: function (result, success) {
+          console.log('error');
+        }
+      });
+    })
+    
+
+  </script>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+</body>
+
+</html>

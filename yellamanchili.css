@@ -1,27 +1,58 @@
-<style>
-h1{
-background-color : red;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-li {
-    float: left;
-}
-li a {
-    display: block;
-    color: black;
+.head {
+    background-image: url("ronaldo.jpg");
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #New{
+
+  }
+
+  section {
+      margin: 1rem;
+      padding: 2rem;
+      background-color: royalblue;
+      border-radius: 2em;
+      opacity: 1.00;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 50px !important;
+    width: 50px;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  
+.topnav {
+  background-color: royalblue;
+  overflow: hidden;
 }
-li a:hover {
-    background-color: red;
-	color:
+
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 21px 23px;
+  text-decoration: none;
+  font-size: 18px;
 }
-body{ background-color: red;}
-</style>
+
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: royalblue;
+  color:;black
+
+}
