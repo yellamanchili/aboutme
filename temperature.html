@@ -38,7 +38,7 @@
 
     <button id="clicker" class="btn btn-primary">Get temperature</button>
     
-    <p id="result"></p>
+    <p id="result" type="number" placeholder="1.00" step="0.01" min="0" max="10"></p>
     <p id="joke"></p>
     
   </main>
@@ -59,7 +59,7 @@
       const ans = 'The temperature is  ' + temperature(i) + ' Degree Celcius.'
       document.getElementById('result').innerHTML = ans
       $.ajax({
-        url: "http://api.icndb.com/jokes/random?limitTo=[nerdy]",
+        url: "https://api.icndb.com/jokes/random?limitTo=[nerdy]",
         cache: false,
         dataType: "json",
         type: "GET",

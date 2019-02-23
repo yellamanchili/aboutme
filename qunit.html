@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Title of Test</title>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.22.0.css">
+    <script src="https://code.jquery.com/qunit/qunit-1.22.0.js"></script>
+</head>
+
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+
+    <script>
+        function temperature(x) {
+            
+            return (x-32)*5/9;
+        }
+        QUnit.test("testing 1", function (assert) {
+            let val =temperature(90);
+            assert.equal(val, 32.22222222222222, "Test Passed, when temperature is 90F then it is equal to 32.22 Degree Celcius.");
+        });
+        QUnit.test("testing 2", function (assert) {
+            let val = temperature(100);
+            assert.equal(val, 37.77777777777778, "Test Passed, when temperature is 90F then it is equal to 32.22 Degree Celcius.");
+        });
+        QUnit.test("testing 3", function (assert) {
+            let val = temperature(150);
+            assert.equal(val, 65.55555555555556, "Test Passed, when temperature is 90F then it is equal to 32.22 Degree Celcius.");
+        });
+        QUnit.test("testing 4", function (assert) {
+            let val = temperature(1);
+            assert.equal(val, -17.22222222222222, "Test Passed, when temperature is 90F then it is equal to 32.22 Degree Celcius.");
+        });
+        QUnit.test("testing 5",function(assert) {
+            let val=temperature(5);
+            assert.equal(val,-15,"Test Passed, when temperature is 90F then it is equal to 32.22 Degree Celcius.");
+        });
+    </script>
+</body>
+
+</html>
